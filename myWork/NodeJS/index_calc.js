@@ -34,7 +34,7 @@ https.get(options, function (res) {
                 // data is available here:
                 //console.log("Yes got it "+body.toString);
             } catch (e) {
-                console.log('Error parsing JSON...!');
+                console.log('Error parsing JSON....!');
             }
         } else {
             console.log('Status:', res.statusCode);
