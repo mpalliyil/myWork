@@ -15,7 +15,7 @@ exports.myFunction= functions.https.onRequest((request, response) => {
             'user-key':'d6f8dc99fe6b7cd9181251d0f8bbf86d'
           }
      };
-    console.log("Hello");
+    console.log("Hello  am here");
     var req = http.response(options, function(res) {
     console.log('STATUS: ' + res.statusCode);
     console.log('HEADERS: ' + JSON.stringify(res.headers));
